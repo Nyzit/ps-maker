@@ -1,18 +1,13 @@
-<div align="center">
-  <img src="assets/powershell-scratchpad.gif"
-       alt="Animated ASCII PS artwork"
-       width="50%">
-    <p>
-        A lightweight PowerShell utility for entering, validating, and executing
-        multiline PowerShell scripts directly from the terminal.
-    </p>
-</div>
+# ps-maker
 
+A lightweight PowerShell utility for entering, validating, and executing
+multiline PowerShell scripts directly from the terminal.
 
-
-## Features
 Scripts are written to a temporary `.ps1` file, executed in a child
 PowerShell process, and removed afterward on a best-effort basis.
+
+## Features
+
 - Enter or paste multiline PowerShell scripts in the terminal.
 - Use `:run` to execute the entered script.
 - Use `:cancel` to cancel without executing the script.
