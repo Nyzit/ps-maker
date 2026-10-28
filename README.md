@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="assets/powershell-scratchpad.gif" width="50%" alt="ps-maker demo">
+    <img src="assets/powershell-scratchpad.gif" width="90%" alt="ps-maker demo">
   <p>
     A lightweight PowerShell utility for entering, validating, and executing
     multiline PowerShell scripts directly from the terminal.
