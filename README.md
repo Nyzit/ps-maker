@@ -146,3 +146,4 @@ PowerShell host or Windows configuration.
 ## License
 
 Released under the MIT License. See `LICENSE`.
+
