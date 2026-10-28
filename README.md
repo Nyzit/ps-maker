@@ -1,7 +1,3 @@
-
-$ReadmePath = "G:\Coding-env\projects\ps-maker\README.md"
-
-$Readme = @'
 # ps-maker
 
 A lightweight PowerShell utility for entering, validating, and executing
@@ -148,12 +144,3 @@ PowerShell host or Windows configuration.
 ## License
 
 Released under the MIT License. See `LICENSE`.
-'@
-
-[System.IO.File]::WriteAllText(
-    $ReadmePath,
-    $Readme,
-    [System.Text.UTF8Encoding]::new($false)
-)
-
-Write-Host "README updated: $ReadmePath" -ForegroundColor Green
