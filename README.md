@@ -1,10 +1,20 @@
-# ps-maker
+<p align="center">
+  <img
+    src="assets/powershell-scratchpad.gif"
+    alt="Animated ASCII terminal banner for PowerShell Scratchpad"
+    width="100%"
+  />
+</p>
 
-A lightweight PowerShell utility for entering, validating, and executing
-multiline PowerShell scripts directly from the terminal.
+<h1 align="center">PowerShell Scratchpad</h1>
 
-Scripts are written to a temporary `.ps1` file, executed in a child
-PowerShell process, and removed afterward on a best-effort basis.
+<p align="center">
+  A lightweight PowerShell utility for running multiline scripts
+  directly from your terminal.
+</p>
+
+---
+
 
 ## Features
 
